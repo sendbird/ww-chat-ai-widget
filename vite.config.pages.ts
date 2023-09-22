@@ -5,5 +5,5 @@ import svgr from 'vite-plugin-svgr';
 export default defineConfig({
   plugins: [react(), svgr()],
   // to point to correct path for gh-pages
-  base: '/chat-ai-widget',
+  base: '/ww-chat-ai-widget',
 });

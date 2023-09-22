@@ -13,7 +13,7 @@ const USER_ID = uuid();
 
 export const DEFAULT_CONSTANT: Constant = {
   botNickName: 'Khan Academy Support Bot',
-  userId: USER_ID,
+  userId: 'user_a',
   userNickName: 'User',
   betaMark: true,
   customBetaMarkText: 'BETA',

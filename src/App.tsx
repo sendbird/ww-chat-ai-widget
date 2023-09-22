@@ -1,6 +1,9 @@
 import ChatAiWidget from './components/ChatAiWidget'; //import { ChatAiWidget } from "@sendbird/chat-ai-widget";
 import { Constant } from './const';
 
+const USER_ID = 'user_a';
+const USER_NICKNAME = 'User';
+
 interface Props extends Partial<Constant> {
   applicationId?: string;
   botId?: string;
@@ -13,8 +16,8 @@ const App = (props: Props) => {
       applicationId={props.applicationId}
       botId={props.botId}
       botNickName={props.botNickName}
-      userId={props.userId}
-      userNickName={props.userNickName}
+      userId={USER_ID}
+      userNickName={USER_NICKNAME}
       betaMark={props.betaMark}
       customBetaMarkText={props.customBetaMarkText}
       suggestedMessageContent={props.suggestedMessageContent}

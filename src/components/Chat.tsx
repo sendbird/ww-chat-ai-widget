@@ -53,6 +53,7 @@ const SBComponent = () => {
     <SBProvider
       appId={applicationId}
       userId={userId}
+      accessToken={'832400e8cf79ab4432b3b059526ad77b45c28be9'}
       nickname={userNickName}
       customApiHost={`https://api-${applicationId}.sendbird.com`}
       customWebSocketHost={`wss://ws-${applicationId}.sendbird.com`}
